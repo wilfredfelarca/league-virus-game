@@ -29,63 +29,44 @@ label start:
 
     # sequence 1 start
     
-    """
-    If you are witnessing this broadcast, there is an active anomaly within your area
-    Remain indoors
     
-    Lock and Board up all entrances
+    "If you are witnessing this broadcast, there is an active anomaly within your area"
+    "Remain indoors"
+    "Lock and Board up all entrances"
+    "Keep a weapon nearby at all occasions"
+    "DO NOT RESPOND TO VOICES ASKING YOU TO PLAY \"League of Legends\" "
+    "Even if the voice is someone you know"
     
-    Keep a weapon nearby at all occasions
     
-    DO NOT RESPOND TO VOICES ASKING YOU TO PLAY \"League of Legends\"
+    d "Good Evening"
+    d "You may not know me"
+    d "But I'm the head of the League Infection Group Monitoring Association"
+    d "L.I.G.M.A for short"
+    d "If you are watching this, then you are within the vicinity of an anomaly called a \"League Player\" "
     
-    Even if the voice is someone you know
-    """
-    
-    d""" 
-    Good Evening
-    
-    You may not know me
-    
-    But I'm the head of the League Infection Group Monitoring Association
-    
-    L.I.G.M.A for short
-    
-    If you are watching this, then you are within the vicinity of an anomaly called a \"League Player\"
-    
-    """
   
-    d """
-    These anomalies can be categorized to three mutations:
+    d "These anomalies can be categorized to three mutations:"
+    d "Casual Players (Threat Level: 2/5)"
+    d "Ranked Players (Threat Level: 4/5)"
+    d "Yasuo Players (Threat Level: 5/5)"
     
-    Casual Players (Threat Level: 2/5)
+  
+    d "All anomalies share attributes such as:"
+    d "Hunched backs"
+    d "Raspy voices"
+    d "Short"
+   
     
-    Ranked Players (Threat Level: 4/5)
+    d "When in the vicinity of a League Player, remain calm"
+    d "Engage in conversation not in relation to the parasite"
+    d "topics such as family, music, and art are encouraged"
     
-    Yasuo Players (Threat Level: 5/5)
-    """
-    
-    d """
-    All anomalies share attributes such as:
-    
-    Hunched backs
-    
-    Raspy voices
-    
-    Short
-    """
-    
-    d """
-    When in the vicinity of a League Player, remain calm
-    
-    Engage in conversation not in relation to the parasite
-    
-    topics such as family, music, and art are encouraged
-    """
     
     # sequence 1 end
     
     jump interview
+    
+    
     
     label interview:
     
@@ -99,61 +80,43 @@ label start:
     
     m "Colleague"
     
-    w """
-    You reported that this friend of yours has been displaying potential anomaly behavior?
+
+    w "You reported that this friend of yours has been displaying potential anomaly behavior?"
+    w "May you elaborate on that, please"
     
-    May you elaborate on that, please
-    """
     
-    m """ 
-    Sure...
+    m "Sure..."
+    m "At first, I assumed Cole was just burnt out..."
+    m "She'd snap over the smallest things or look exhausted, but all of us in the office did"
+    m "So I paid it no mind until..."
     
-    At first, I assumed Cole was just burnt out...
-    
-    She'd snap over the smallest things or look exhausted, but all of us in the office did
-    
-    So I paid it no mind until...
-    """
     
     "*Mon takes a deep breath and returns to their testimony*"
     
-    m """ 
-    Then... she started acting weird.
     
-    Missing meetings. Clocking in late. Submitting unfinished reports
+    m "Then... she started acting weird."
+    m "Missing meetings. Clocking in late. Submitting unfinished reports"
+    m "I got worried so I decided to visit their apartment"
+    m "I thought they were going through something rough since her and her girlfriend Iuno broke up but"
+    m "Oh god..."
     
-    I got worried so I decided to visit their apartment
-    
-    I thought they were going through something rough since her and her girlfriend Iuno broke up but-
-    
-    Oh god...
-    """
     
     "*rubs their head temples"
 
-    m """
-    I was too late
     
-    She was hunched over a laptop... playing support.
+    m "I was too late"
+    m "She was hunched over a laptop... playing support."
+    m "The in game timer saying \"14:41\" "
+    m "if I only knew earlier I could've-"
+        
     
-    The in game timer saying \"14:41\"
+    w "So the threat level was low..."
+    w "What happened next?"
     
-    if I only knew earlier I could've-
-    """    
     
-    w """ 
-    So the threat level was low...
-    
-    What happened next?
-    """
-    
-    m """
-    She turned around and asked \"Mon, play league of legends\"
-    
-    I didn't know what to do, that laptop looked like it was attached to them!
-    
-    When I said no, they started showing me the characters, the animations, the story and
-    """
+    m "She turned around and asked \"Mon, play league of legends\" "
+    m "I didn't know what to do, that laptop looked like it was attached to them!"
+    m "When I said no, they started showing me the characters, the animations, the story and-"
     
     "*footage corrupts*"
     
@@ -163,7 +126,11 @@ label start:
     
     jump infection
     
+    
+    
     label infection:
+    
+    # sequence 3 start
     
     "*Show an interview area between the two*"
     
