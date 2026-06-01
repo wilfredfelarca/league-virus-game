@@ -27,57 +27,105 @@ label start:
 
     show eileen happy
 
-    # These display lines of dialogue.
+    # sequence 1 start
     
-    "If you are witnessing this broadcast, there is an active anomaly within your area"
+    """
+    If you are witnessing this broadcast, there is an active anomaly within your area
+    Remain indoors
     
-    "Remain indoors"
+    Lock and Board up all entrances
     
-    "Lock and Board up all entrances"
+    Keep a weapon nearby at all occasions
     
-    "Keep a weapon nearby at all occasions"
+    DO NOT RESPOND TO VOICES ASKING YOU TO PLAY \"League of Legends\"
     
-    "DO NOT RESPOND TO VOICES ASKING YOU TO PLAY \"League of Legends\""
+    Even if the voice is someone you know
+    """
     
-    "Even if the voice is someone you know"
+    d""" 
+    Good Evening
     
-    d "Good Evening"
-
-    d "You may not know me"
+    You may not know me
     
-    d "but I'm the head of the League Infection Group Monitoring Association"
-
-    d "L.I.G.M.A for short"
+    But I'm the head of the League Infection Group Monitoring Association
     
-    d "If you are watching this, then you are within the vicinity of an anomaly called a \"League Player\""
+    L.I.G.M.A for short
     
-    d "These anomalies can be categorized to three mutations:"
+    If you are watching this, then you are within the vicinity of an anomaly called a \"League Player\"
     
-    d "Casual Players (Threat Level: 2/5)"
+    """
+  
+    d """
+    These anomalies can be categorized to three mutations:
     
-    d "Ranked Players (Threat Level: 4/5)"
+    Casual Players (Threat Level: 2/5)
     
-    d "Yasuo Players (Threat Level: 5/5)"
+    Ranked Players (Threat Level: 4/5)
     
-    d "All anomalies share attributes such as:"
+    Yasuo Players (Threat Level: 5/5)
+    """
     
-    d "Hunched backs"
+    d """
+    All anomalies share attributes such as:
     
-    d "Raspy voices"
+    Hunched backs
     
-    d "Short"
+    Raspy voices
     
-    d "When in the vicinity of a League Player, remain calm"
+    Short
+    """
     
-    d "Engage in conversation not in relation to the parasite"
+    d """
+    When in the vicinity of a League Player, remain calm
     
-    d "topics such as family, music, and art are encouraged"
+    Engage in conversation not in relation to the parasite
+    
+    topics such as family, music, and art are encouraged
+    """
+    
+    # sequence 1 end
     
     jump interview
     
     label interview:
     
-    "sequence 2 start"
+    # sequence 2 start
+    
+    w "Please state your name"
+    
+    m "Mon Kennedy"
+    
+    w "And what is your relation with the infected?"
+    
+    m "Colleague"
+    
+    w """
+    You reported that this friend of yours has been displaying potential anomaly behavior?
+    
+    May you elaborate on that, please
+    """
+    
+    m """ 
+    Sure...
+    
+    At first, I assumed Cole was just burnt out...
+    
+    She'd snap over the smallest things or look exhausted, but all of us in the office did
+    
+    So I paid it no mind until...
+    """
+    
+    "*Mon takes a deep breath and returns to their testimony*"
+    
+    m """ 
+    Then... she started acting weird.
+    
+    Missing meetings. Clocking in late. Submitting unfinished reports
+    
+    I got worried so I decided to visit their apartment
+    
+    I thought they were going through something rough since her and her
+    """
     
     
     # This ends the game.
