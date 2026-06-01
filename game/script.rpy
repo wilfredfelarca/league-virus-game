@@ -124,9 +124,48 @@ label start:
     
     I got worried so I decided to visit their apartment
     
-    I thought they were going through something rough since her and her
+    I thought they were going through something rough since her and her girlfriend Iuno broke up but-
+    
+    Oh god...
     """
     
+    "*rubs their head temples"
+
+    m """
+    I was too late
+    
+    She was hunched over a laptop... playing support.
+    
+    The in game timer saying \"14:41\"
+    
+    if I only knew earlier I could've-
+    """    
+    
+    w """ 
+    So the threat level was low...
+    
+    What happened next?
+    """
+    
+    m """
+    She turned around and asked \"Mon, play league of legends\"
+    
+    I didn't know what to do, that laptop looked like it was attached to them!
+    
+    When I said no, they started showing me the characters, the animations, the story and
+    """
+    
+    "*footage corrupts*"
+    
+    "*suddenly cuts to a news broadcast*"
+    
+    # sequence 2 end
+    
+    jump infection
+    
+    label infection:
+    
+    "*Show an interview area between the two*"
     
     # This ends the game.
 
