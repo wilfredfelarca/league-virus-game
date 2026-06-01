@@ -132,8 +132,64 @@ label start:
     
     # sequence 3 start
     
-    "*Show an interview area between the two*"
+    "*Show an interview area between the two*"\
     
+    
+    l "Welcome chat to the \"ThemPodcasts\" "
+    l "I'm your host Louie and today we have a special guest."
+    l "Please welcome Doctor Milo of L.I.G.M.A.!"
+    
+    d "It's good to be here"
+
+    l "I don't wanna dance around the issue's Doctor, so let's try to break the ice."
+    l "What are your thoughts on these \"League Defenders\" stating that playing League of Legends is a \"New Era of Esports\" "
+    
+    d "They are either blind to the current epidemic and choose to spew harmful rhetoric"
+    d "Or have started showing early signs of infection"
+    
+    l "You're quite sure, mind tell the viewers then at home what the signs of infection are?"
+    
+    "*cut to a presentation"
+    
+    "Stage 1) Actively seeking external Media"
+    "The infected has grown an insatiable need to consume media surrounding the \"league of Legends\" IP such as "
+    "Arcane"
+    "2XKO"
+    "KDA, Heartsteel and Pentakill"
+    "Goons to the characters"
+    
+    "Stage 2) The Queue"
+    "The infected had downloaded the client and is queueing for casual games, slowly secluding themselves from the world"
+    "Do note they are highly dangerous in hordes as they will invite you to join in their \"Lobby\" " 
+    
+    "Stage 3) Ranked Player"
+    "A point of no return; will often be heard muttering about \"LP\" and \"Placements\" whilst in the lobby"
+    "Will STOP playing characters they love and resign to playing \"Meta picks\" "
+    
+    "Final Stage) Yasuo Players"
+    "They auto lock Yasuo"
+    
+    
+    "*Cut back to the interview*"
+    
+    l "Those are quite drastic"
+    l "But with something so futile and symptoms being often mixed with anti-social behavior..."
+    l "What are we gonna do now?"
+    
+    d "I... don't know"
+    
+    "*Interview cuts*"
+    
+    # sequence 3 end
+    
+    jump look
+    
+    label look:
+    
+    # sequence 4 start
+    
+    "start of sequence 4"
+           
     # This ends the game.
 
     return
