@@ -3,7 +3,12 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define i = Character("Infected")
+define d = Character("Doctor Milo")
+define w = Character("Wilfred")
+define m = Character("Mon")
+define l = Character("louie")
+
 
 
 # The game starts here.
@@ -23,11 +28,58 @@ label start:
     show eileen happy
 
     # These display lines of dialogue.
+    
+    "If you are witnessing this broadcast, there is an active anomaly within your area"
+    
+    "Remain indoors"
+    
+    "Lock and Board up all entrances"
+    
+    "Keep a weapon nearby at all occasions"
+    
+    "DO NOT RESPOND TO VOICES ASKING YOU TO PLAY \"League of Legends\""
+    
+    "Even if the voice is someone you know"
+    
+    d "Good Evening"
 
-    e "You've created a new Ren'Py game."
+    d "You may not know me"
+    
+    d "but I'm the head of the League Infection Group Monitoring Association"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
+    d "L.I.G.M.A for short"
+    
+    d "If you are watching this, then you are within the vicinity of an anomaly called a \"League Player\""
+    
+    d "These anomalies can be categorized to three mutations:"
+    
+    d "Casual Players (Threat Level: 2/5)"
+    
+    d "Ranked Players (Threat Level: 4/5)"
+    
+    d "Yasuo Players (Threat Level: 5/5)"
+    
+    d "All anomalies share attributes such as:"
+    
+    d "Hunched backs"
+    
+    d "Raspy voices"
+    
+    d "Short"
+    
+    d "When in the vicinity of a League Player, remain calm"
+    
+    d "Engage in conversation not in relation to the parasite"
+    
+    d "topics such as family, music, and art are encouraged"
+    
+    jump interview
+    
+    label interview:
+    
+    "sequence 2 start"
+    
+    
     # This ends the game.
 
     return
