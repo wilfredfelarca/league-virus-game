@@ -19,29 +19,32 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene static bg with fade
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    scene warning bg with fade
 
     # sequence 1 start
     
     
     "If you are witnessing this broadcast, there is an active anomaly within your area"
+    scene home instructions bg with fade
     "Remain indoors"
     "Lock and Board up all entrances"
     "Keep a weapon nearby at all occasions"
     "DO NOT RESPOND TO VOICES ASKING YOU TO PLAY \"League of Legends\" "
     "Even if the voice is someone you know"
     
-    
+    scene black with fade
+
     d "Good Evening"
     d "You may not know me"
     d "But I'm the head of the League Infection Group Monitoring Association"
     d "L.I.G.M.A for short"
+    scene proximity league bg with fade
     d "If you are watching this, then you are within the vicinity of an anomaly called a \"League Player\" "
     
   
