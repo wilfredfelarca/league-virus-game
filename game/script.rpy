@@ -74,6 +74,8 @@ label start:
     label interview:
     
     # sequence 2 start
+
+    scene black with fade
     
     w "Please state your name"
     
