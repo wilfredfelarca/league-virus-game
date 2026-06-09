@@ -51,7 +51,7 @@ label start:
     scene proximity league bg with fade
     d "If you are watching this, then you are within the vicinity of an anomaly called a \"League Player\" "
     
-  
+    scene variants bg
     d "These anomalies can be categorized to three mutations:"
     d "Casual Players (Threat Level: 2/5)"
     d "Ranked Players (Threat Level: 4/5)"
@@ -59,13 +59,17 @@ label start:
     
   
     d "All anomalies share attributes such as:"
+    scene similiar a with fade
     d "Hunched backs"
+    scene similiar b
     d "Raspy voices"
+    scene similiar c
     d "Short"
    
-    
+    scene proximity league bg with fade
     d "When in the vicinity of a League Player, remain calm"
     d "Engage in conversation not in relation to the parasite"
+    scene engage conversation bg 
     d "topics such as family, music, and art are encouraged"
     
     
