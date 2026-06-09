@@ -33,16 +33,20 @@ label start:
     "If you are witnessing this broadcast, there is an active anomaly within your area"
     scene home instructions bg with fade
     "Remain indoors"
-    "Lock and Board up all entrances"
-    "Keep a weapon nearby at all occasions"
+    scene home instructions b bg 
+    "Lock and board up all entrances"
+    scene home instructions c bg 
+    "Keep a weapon nearby at all occasions."
+    scene home instructions d bg with fade
     "DO NOT RESPOND TO VOICES ASKING YOU TO PLAY \"League of Legends\" "
-    "Even if the voice is someone you know"
+    "Even if the voice is someone you know..."
     
     scene black with fade
-
-    d "Good Evening"
-    d "You may not know me"
-    d "But I'm the head of the League Infection Group Monitoring Association"
+    scene sq1_drmilo_a with fade
+    d "Good Evening."
+    d "You may not know me,"
+    scene sq1_drmilo_b
+    d "But I'm the head of the League Infection Group Monitoring Association,"
     d "L.I.G.M.A for short"
     scene proximity league bg with fade
     d "If you are watching this, then you are within the vicinity of an anomaly called a \"League Player\" "
