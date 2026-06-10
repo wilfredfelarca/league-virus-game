@@ -303,7 +303,88 @@ label start:
     jump attempt
     
     label attempt:
-               
+    
+    # sequence 5 start
+    
+    "*Cut to Doctor Milo having a chat with Louie via video call*"
+    
+    l "Alright, we can schedule you for Tuesday 9:00PM, gotcha?"
+    
+    d "Yeah... I'll have my new discovery before that..."
+    
+    l "Alright, thanks... By the way,"
+    l "How's it like being infected? AHAHA-!"
+    
+    d "Fuck you."
+    
+    "*Milo hangs up as lay back at their chair*"
+    
+    d "No, this isn't it..."
+    
+    "*flash photo of a messy desk filled with papers and scribbles*"
+    
+    d "All of these leads are incompatible with the virus..."
+    d "There's slight aversions to it but not outright reversing of the symptoms."
+    
+    "*Shows a close up of a framed photo of Milo and a potted plant*"
+    
+    d "Whenever I show them pictures of nature, it does nothing but temporarily terrify them, so exposure therapy's a no go"
+    d "Though... taking a closer look may help us to understand this..."
+    
+    "*cut to Doctor Milo opening their laptop to the website of the league of legends*"
+    
+    d "Maybe... just maybe... If I learnt more about the source of where this virus is coming from,"
+    d "them maybe I can get to the bottom of it."
+    
+    "*Hours passed by*"
+    
+    d "Huh... Warwick... Rengar..."
+    d "Not bad... I...."
+    d "I perhaps see the appeal to this... monstrosity..."
+    
+    "*show the infected tied up in the corner*"
+    
+    i "See...! You get it...!"
+    i "You want to try how Warwick plays in a game? If you lend me your laptop-"
+    
+    d "NOT gonna happen."
+    
+    "*A few more hours later... cut to Milo hunched over the laptop*"
+    
+    d "Yeah, I got nothing."
+    d "Warwick's hot though"
+    d "-!?"
+    d "What... What time is it?"
+    
+    "*Doctor Milo turns to look at the clock on their desk,*"
+    "*Shocked to find out it's been 6 hours ever since they started researching information about League of Legends*"
+    
+    d "IT'S BEEN 6 HOURS? OH, THIS IS BAD..."
+    d "THIS IS REALLY BAD... I've consumed too much... What if..."
+    
+    "*Pushes away from their table and stands, letting some items fall*"
+    
+    d "What if I'm next?..."
+    d "No... I can't... I..."
+    
+    "*Fade to black*"
+    
+    d "I can't be next..."
+    
+    "*cut back to Mon and Wilfred*"
+    
+    # sequence 5 end
+    
+    jump end
+    
+    label end:
+    
+    # sequence 6 start
+    
+    "*BANG BANG BANG*"
+    
+    # sequence 6 end     
+    
     # This ends the game.
 
     return
