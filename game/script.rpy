@@ -383,6 +383,35 @@ label start:
     
     "*BANG BANG BANG*"
     
+    m "W-What do we do, detective?!... They know we're in here, we're trapped!..."
+    
+    i "Come... Out... We know... You wanna... play league..."
+    i "Join the lobby!... Hop on League!"
+    i "League is fun!... You both won't regret it, trust us!"
+    
+    w "There's no point in fighting it anymore, Mon."
+    w "We can't escape this..."
+    w "Like what the philosopher Euridel Bo has said,"
+    w " \"Everyone has tried league at least once in their lives.\" "
+    w "And it's not always guaranteed they end up infected like the others."
+    
+    m "Wait... You're so right, I've played league once when I was 13 and it never stuck..."
+    
+    w "You... what?"
+    
+    m "It... It never stuck... Maybe"
+    
+    "*cut to the door*"
+    
+    m "Just maybe... there is a cure."
+    
+    "*cut to the door slamming open*"
+    "*Fade out to show a monitor that held all the tapes we watched*"
+    "*Cut to a first person POV who's been watching these tapes*"
+    "*As they turn to the side, showing all the infected watching them watch the tapes*"
+    "Fades to black"
+    "THE END"
+    
     # sequence 6 end     
     
     # This ends the game.
