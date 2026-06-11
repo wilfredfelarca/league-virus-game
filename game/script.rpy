@@ -61,9 +61,9 @@ label start:
     d "All anomalies share attributes such as:"
     scene similiar a with fade
     d "Hunched backs"
-    scene similiar b
+    scene similiar b with dissolve
     d "Raspy voices"
-    scene similiar c
+    scene similiar c with dissolve
     d "Short"
    
     scene proximity league bg with fade
@@ -93,47 +93,51 @@ label start:
     
     m "Colleague."
     
-
+    scene sq2_interview_b with fade
     w "You reported that this friend of yours has been displaying potential anomaly behavior?"
     w "May you elaborate on that, please."
     
-    
+    scene sq2_interview_a
     m "Sure..."
     m "At first, I assumed Cole was just burnt out..."
+    scene sq2_interview_c
     m "She'd snap over the smallest things or look exhausted, but all of us in the office did."
     m "So I paid it no mind until..."
     
+    scene black with fade
+    # "*Mon takes a deep breath and returns to their testimony*" 
     
-    "*Mon takes a deep breath and returns to their testimony*"
     
-    
-    m "Then... she started acting weird."
-    m "Missing meetings. Clocking in late. Submitting unfinished reports."
+    m "She started acting... weird."
+    m "Missing meetings, Clocking in late, Submitting unfinished reports..."
+    scene cole apartment bg with fade
     m "I got worried so I decided to visit their apartment."
     m "I thought they were going through something rough since her and her girlfriend Iuno broke up but..."
     m "Oh god..."
     
     
-    "*rubs their head temples"
+    # "*rubs their head temples" removes this since this is just direction
 
-    
+    scene cole playing league bg with fade
     m "I was too late."
     m "She was hunched over a laptop... playing support."
     m "The in game timer saying \"14:41\"... "
     m "if I only knew earlier I could've-"
         
-    
+    # wilfred face pov
     w "So the threat level was low..."
     w "What happened next?"
     
-    
+    scene sq2_interview_c
     m "She turned around and asked \"Mon, play league of legends\". "
-    m "I didn't know what to do, that laptop looked like it was attached to them!"
+    scene sq2_interview_b
+    m "I- I didn't know what to do! that keyboard and mouse looked like it was attached to them!"
     m "When I said no, they started showing me the characters, the animations, the story and-"
+
+    scene static bg with pixellate
+    #"*footage corrupts*"
     
-    "*footage corrupts*"
-    
-    "*suddenly cuts to a news broadcast*"
+   # "*suddenly cuts to a news broadcast*"
     
     # sequence 2 end
     
@@ -145,11 +149,12 @@ label start:
     
     # sequence 3 start
     
-    "*Show an interview area between the two*"\
+    #"*Show an interview area between the two*"\
     
-    
+    scene sq3_podcast_a 
     l "Welcome chat to the \"ThemPodcasts\". "
     l "I'm your host Louie and today we have a special guest."
+    scene sq3_podcast_b
     l "Please welcome Doctor Milo of L.I.G.M.A.!"
     
     d "It's good to be here."
@@ -162,7 +167,7 @@ label start:
     
     l "You're quite sure, mind tell the viewers then at home what the signs of infection are?"
     
-    "*cut to a presentation"
+    "{i}bzzt{/i}"   #"*cut to a presentation"
     
     "Stage 1) Actively seeking external Media"
     "The infected has grown an insatiable need to consume media surrounding the \"league of Legends\" IP such as... "
@@ -183,7 +188,7 @@ label start:
     "They auto lock Yasuo"
     
     
-    "*Cut back to the interview*"
+    "{i}bzzt{/i}" # "*Cut back to the interview*"
     
     l "Those are quite drastic."
     l "But with something so futile and symptoms being often mixed with anti-social behavior..."
