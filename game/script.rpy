@@ -93,7 +93,7 @@ label start:
     
     m "Colleague."
     
-    scene sq2_interview_b with fade
+    scene sq2_interview_e with fade
     w "You reported that this friend of yours has been displaying potential anomaly behavior?"
     w "May you elaborate on that, please."
     
@@ -124,7 +124,7 @@ label start:
     m "The in game timer saying \"14:41\"... "
     m "if I only knew earlier I could've-"
         
-    # wilfred face pov
+    scene sq2_interview_d with fade
     w "So the threat level was low..."
     w "What happened next?"
     
@@ -151,23 +151,25 @@ label start:
     
     #"*Show an interview area between the two*"\
     
-    scene sq3_podcast_a 
+    scene sq3_podcast_a with pixellate
     l "Welcome chat to the \"ThemPodcasts\". "
     l "I'm your host Louie and today we have a special guest."
     scene sq3_podcast_b
     l "Please welcome Doctor Milo of L.I.G.M.A.!"
     
     d "It's good to be here."
-
+    scene sq3_podcast_a
     l "I don't wanna dance around the issue's Doctor, so let's try to break the ice."
     l "What are your thoughts on these \"League Defenders\" stating that playing League of Legends is a \"New Era of Esports\". "
     
+    scene sq3_podcast_c
     d "They are either blind to the current epidemic and choose to spew harmful rhetoric,"
     d "Or have started showing early signs of infection."
     
+    scene sq3_podcast_b
     l "You're quite sure, mind tell the viewers then at home what the signs of infection are?"
     
-    "{i}bzzt{/i}"   #"*cut to a presentation"
+    scene sq3_podcast_d with pixellate #*cut to a presentation
     
     "Stage 1) Actively seeking external Media"
     "The infected has grown an insatiable need to consume media surrounding the \"league of Legends\" IP such as... "
@@ -176,27 +178,31 @@ label start:
     "KDA, Heartsteel and Pentakill"
     "Goons to the characters"
     
+    scene sq3_podcast_e with fade
     "Stage 2) The Queue"
     "The infected had downloaded the client and is queueing for casual games, slowly secluding themselves from the world."
     "Do note they are highly dangerous in hordes as they will invite you to join in their \"Lobby\". " 
     
+    scene sq3_podcast_f with fade
     "Stage 3) Ranked Player"
     "A point of no return; will often be heard muttering about \"LP\" and \"Placements\" whilst in the lobby."
     "Will STOP playing characters they love and resign to playing \"Meta picks\". "
     
+    scene sq3_podcast_g with fade
     "Final Stage) Yasuo Players"
     "They auto lock Yasuo"
     
     
-    "{i}bzzt{/i}" # "*Cut back to the interview*"
-    
+    scene sq3_podcast_b # "*Cut back to the interview*"
     l "Those are quite drastic."
+    scene sq3_podcast_a
     l "But with something so futile and symptoms being often mixed with anti-social behavior..."
     l "What are we gonna do now?"
     
+    scene sq3_podcast_c
     d "I... don't know."
     
-    "*Interview cuts*"
+    scene static bg with fade
     
     # sequence 3 end
     
