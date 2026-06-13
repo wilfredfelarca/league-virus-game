@@ -351,11 +351,11 @@ label start:
     label attempt:
     
     # sequence 5 start
-
+    scene sq5_d with fade
     # "*Cut to a messy study*"
     # "*Cut to Doctor Milo having a chat with Louie via video call*"
     
-    
+    scene sq5_a with dissolve
     l "Alright, we can schedule you for Tuesday 9:00PM, gotcha?"
     
     d "Yeah... I'll have my new discovery before that..."
@@ -363,63 +363,80 @@ label start:
     l "Alright, thanks... By the way,"
     l "How's it like being infected? AHAHA-!"
     
+    scene sq5_b
     d "Fuck you."
     
-    "*Milo hangs up as lay back at their chair*"
+    scene sq5_c with fade
+    # "*Milo hangs up as lay back at their chair*"
     
     d "No, this isn't it..."
     
-    "*flash photo of a messy desk filled with papers and scribbles*"
-    
+    # "*flash photo of a messy desk filled with papers and scribbles*"
+    scene sq5_d with fade 
     d "All of these leads are incompatible with the virus..."
     d "There's slight aversions to it but not outright reversing of the symptoms."
     
-    "*Shows a close up of a framed photo of Milo and a potted plant*"
-    
+    #"*Shows a close up of a framed photo of Milo and a potted plant*"
+    scene sq5_e
     d "Whenever I show them pictures of nature, it does nothing but temporarily terrify them, so exposure therapy's a no go"
     d "Though... taking a closer look may help us to understand this..."
     
-    "*cut to Doctor Milo opening their laptop to the website of the league of legends*"
+    #"*cut to Doctor Milo opening their computer to the website of the league of legends*"
     
+    scene sq5_h with dissolve
     d "Maybe... just maybe... If I learnt more about the source of where this virus is coming from,"
-    d "them maybe I can get to the bottom of it."
+    scene black with fade
+    d "then maybe..."
+    scene sq5_i with fade
+    d "I can get to the bottom of it."
     
+    scene black with fade
     "*Hours passed by*"
     
+    scene sq5_milo league_c with dissolve
     d "Huh... Warwick... Rengar..."
     d "Not bad... I...."
     d "I perhaps see the appeal to this... monstrosity..."
     
-    "*show the infected tied up in the corner*"
+    # "*show the infected tied up in the corner*"
     
+    scene sq5_f with vpunch
     i "See...! You get it...!"
     i "You want to try how Warwick plays in a game? If you lend me your laptop-"
     
+    scene sq5_milo league_b with vpunch
     d "NOT gonna happen."
     
-    "*A few more hours later... cut to Milo hunched over the laptop*"
+    scene black with fade
+    "*A few more hours later... "
+    # but to Milo hunched over the laptop*"
     
+    scene sq5_milo league_a with dissolve
     d "Yeah, I got nothing."
+    scene sq5_milo league_c
     d "Warwick's hot though"
+    scene sq5_milo league_c with vpunch
     d "-!?"
     d "What... What time is it?"
     
-    "*Doctor Milo turns to look at the clock on their desk,*"
-    "*Shocked to find out it's been 6 hours ever since they started researching information about League of Legends*"
+    #"*Doctor Milo turns to look at the clock on their desk,*"
+    #"*Shocked to find out it's been 6 hours ever since they started researching information about League of Legends*"
     
+    scene sq5_milo league_e with dissolve
     d "IT'S BEEN 6 HOURS? OH, THIS IS BAD..."
     d "THIS IS REALLY BAD... I've consumed too much... What if..."
     
-    "*Pushes away from their table and stands, letting some items fall*"
-    
+    # "*Pushes away from their table and stands, letting some items fall*"
+    scene sq5_g with fade
     d "What if I'm next?..."
     d "No... I can't... I..."
     
-    "*Fade to black*"
+    scene black with fade
     
     d "I can't be next..."
     
-    "*cut back to Mon and Wilfred*"
+    scene static bg with fade
+    # "*cut back to Mon and Wilfred*"
     
     # sequence 5 end
     
