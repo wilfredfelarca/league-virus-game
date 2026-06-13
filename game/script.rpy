@@ -61,11 +61,11 @@ label start:
   
     d "All anomalies share attributes such as:"
     scene similiar a with fade
-    d "Hunched backs"
+    d "Hunched backs."
     scene similiar b with dissolve
-    d "Raspy voices"
+    d "Raspy voices."
     scene similiar c with dissolve
-    d "Short"
+    d "Short."
    
     scene proximity league bg with fade
     d "When in the vicinity of a league player, remain calm."
@@ -113,7 +113,7 @@ label start:
     m "Missing meetings, Clocking in late, Submitting unfinished reports..."
     scene cole apartment bg with fade
     m "I got worried so I decided to visit their apartment."
-    m "I thought they were going through something rough since her and her girlfriend Iuno broke up but..."
+    m "I thought they were going through something rough since her and her girlfriend Shizuku broke up but..."
     m "Oh god..."
     
     
@@ -132,7 +132,7 @@ label start:
     scene sq2_interview_c with dissolve
     m "She turned around and asked \"Mon, play league of legends\". "
     scene sq2_interview_b with dissolve
-    m "I- I didn't know what to do! that keyboard and mouse looked like it was attached to them!"
+    m "I- I didn't know what to do! That keyboard and mouse looked like it was attached to them!"
     m "When I said no, they started showing me the characters, the animations, the story and-"
 
     scene static bg with pixellate
@@ -191,7 +191,7 @@ label start:
     
     scene sq3_podcast_g with fade
     "Final Stage) Yasuo Players"
-    "They auto lock Yasuo"
+    "They auto lock Yasuo."
     
     
     scene sq3_podcast_b with fade # "*Cut back to the interview*"
@@ -240,7 +240,7 @@ label start:
     
     # "*Cut back to the cctv footage of Wilfred and Mon chatting at the room*"
     
-    scene sq4_kys with dissolve
+    scene sq4_kys with fade
     "The K.Y.S protocol."
     scene sq4_kys_k with pixellate
     "KNOW THE SYMPTOMS."
@@ -352,6 +352,7 @@ label start:
     
     # sequence 5 start
     scene sq5_d with fade
+    pause 0.5
     # "*Cut to a messy study*"
     # "*Cut to Doctor Milo having a chat with Louie via video call*"
     
@@ -391,7 +392,7 @@ label start:
     d "I can get to the bottom of it."
     
     scene black with fade
-    "*Hours passed by*"
+    "{i}Hours passed by{/i}"
     
     scene sq5_milo league_c with dissolve
     d "Huh... Warwick... Rengar..."
@@ -408,7 +409,7 @@ label start:
     d "NOT gonna happen."
     
     scene black with fade
-    "*A few more hours later... "
+    "{i}A few more hours later...{/i}"
     # but to Milo hunched over the laptop*"
     
     scene sq5_milo league_a with dissolve
@@ -453,15 +454,15 @@ label start:
     scene sq6_c with vpunch
     pause 1.0
     
-    "*BANG BANG BANG*"
+    "{i}BANG BANG BANG{/i}"
     
-    scene sq6_h with vpunch
-    m "W-What do we do, detective?!... They know we're in here, we're trapped!..."
+    scene sq6_j with vpunch
+    m "W-What do we do, detective...!? They know we're in here, we're trapped...!"
     
     scene sq6_c with vpunch
     i "Come... Out... We know... You wanna... play league..."
-    i "Join the lobby!... Hop on League!"
-    i "League is fun!... You both won't regret it, trust us!"
+    i "Join the lobby...! Hop on League!"
+    i "League is fun-! You both won't regret it, trust us!"
     
     scene sq6_d 
     w "There's no point in fighting it anymore, Mon."
