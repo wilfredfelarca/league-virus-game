@@ -445,36 +445,53 @@ label start:
     label end:
     
     # sequence 6 start
+
+    scene sq6_a with fade
+    pause 0.5
+    scene sq6_b
+    pause 0.5
+    scene sq6_c with vpunch
+    pause 1.0
     
     "*BANG BANG BANG*"
     
+    scene sq6_h with vpunch
     m "W-What do we do, detective?!... They know we're in here, we're trapped!..."
     
+    scene sq6_c with vpunch
     i "Come... Out... We know... You wanna... play league..."
     i "Join the lobby!... Hop on League!"
     i "League is fun!... You both won't regret it, trust us!"
     
+    scene sq6_d 
     w "There's no point in fighting it anymore, Mon."
     w "We can't escape this..."
+    scene sq6_l
     w "Like what the philosopher Euridel Bo has said,"
+    scene sq6_e with dissolve
     w " \"Everyone has tried league at least once in their lives.\" "
+    scene sq6_l with dissolve
     w "And it's not always guaranteed they end up infected like the others."
     
+    scene sq6_f
     m "Wait... You're so right, I've played league once when I was 13 and it never stuck..."
     
+    scene sq6_g with vpunch
     w "You... what?"
     
-    m "It... It never stuck... Maybe"
+    scene sq6_h with fade
+    m "It... It never stuck..."
     
-    "*cut to the door*"
+    scene black with fade
+    m "Maybe..."
+    scene black with vpunch
+    "{i}door bangs{/i}"
     
+    scene sq6_i with fade
     m "Just maybe... there is a cure."
     
-    "*cut to the door slamming open*"
-    "*Fade out to show a monitor that held all the tapes we watched*"
-    "*Cut to a first person POV who's been watching these tapes*"
-    "*As they turn to the side, showing all the infected watching them watch the tapes*"
-    "Fades to black"
+    scene black with fade
+    pause 0.5
     "THE END"
     
     # sequence 6 end     
