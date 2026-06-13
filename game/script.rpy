@@ -215,36 +215,46 @@ label start:
     
     "In the event of an encounter with a league player, follow the K.Y.S protocol."
 
-    "*Inserts a ccv footage of the detective and the victim watching the infected by the other side of the glass*"
+    # "*Inserts a ccv footage of the detective and the victim watching the infected by the other side of the glass*"
     
+    scene sq4_a with fade
     i "How... to capture... the... baron... buff..."
     
     w "She seems to show late stages of transformation."
     w "If you don't mind, may you repeat to me the last moments before you reported the infection?"
     
+    scene sq4_b with dissolve
     m "Right..."
     
-    "*Cut to a scene where it shows Mon by the door frame as the infected charges at them*"
+    # "*Cut to a scene where it shows Mon by the door frame as the infected charges at them*"
     
+    scene sq4_c with dissolve
     m "It happened so quickly, they wouldn't stop yapping about \"Sona\" and started showing me cinematics of her."
     m "Their eyes look strained, their frame shaking and their voice hoarse..."
     m "But I sat there and listened."
     
+    scene sq4_shooketh_d with vpunch
     w "-!"
     
-    "*Cut back to the cctv footage of Wilfred and Mon chatting at the room*"
+    # "*Cut back to the cctv footage of Wilfred and Mon chatting at the room*"
     
+    scene black with dissolve
     "The K.Y.S protocol."
+    scene static bg with pixellate
     "KNOW THE SYMPTOMS."
+    scene similiar a
     "When in the vicinity of the infected and/or infected area, check your symptoms."
+    scene similiar b
     "Follow the relating symptoms on screen:"
     
-    "*Show symptoms that Doctor Milo was talking about*"
-    
+    # "*Show symptoms that Doctor Milo was talking about*"
+
+    scene similiar c
     "If you show any signs of infection then call the L.I.G.M.A Hotline 6769-0420-911."
     
-    "*cuts back to Mon and Wilfred via glitching*"
-    
+    # "*cuts back to Mon and Wilfred via glitching*"
+
+    scene sq4_c with pixellate
     w "You what...?"
     
     m "To be far,"
@@ -252,28 +262,35 @@ label start:
     
     w "If you really like the visuals of the characters, you should try 2XKO-"
     
+    scene sq4_e with vpunch
     "-!?"
     
     i "Do you like Sylas?"
     i "He's pretty simple to learn in midlane, you can join my lobby and we can play a bot match-"
     
-    "*Wilfred shines his phone with a picture of grass*"
+    # "*Wilfred shines his phone with a picture of grass*"
     
+    scene sq4_h with vpunch
     w "GET BACK!"
     
+    scene sq4_f with vpunch
     i "AAAAAAAAAAAAHHH!"
     
+    scene black
+    # TODO: Cole I have Shizuku merch I genuinely havent given u lol finish this one
     "The K.Y.S Protocol"
     "YELL FOR HELP"
     "When in close contact with an infected league player, do not hesitate to yell for help."
     "Sometimes even directly yelling at them can help neutralize the threat for a short period of time,"
     "So one can easily extract themself from the situation at hand."
     
-    "*glitch back to the cctv footage of detective wilfred and victim mon*"
+    # "*glitch back to the cctv footage of detective wilfred and victim mon*"
     
+    scene sq4_e with fade
     w "I don't think there's any saving for these \"people...\". "
     w "They're in too deep... I fear not even touching grass could save them..."
- 
+
+    # WE DONT HAVE EDITED IMAGES OF THIS FUCK
     m "WHAT?!"
     m "Then what about our friends, our families, who've been infected?"
     m "We can't just abandon them!"
@@ -281,34 +298,39 @@ label start:
     m "It's not safe out there anymore, anyone could get infected."
     m "And I sure as hell don't want to be part of that... crowd..."
     
+    scene black
     "*BANG BANG*"
     
-    "*As the pair looked back at the window, a sudden crack was now visible.*"
+    # "*As the pair looked back at the window, a sudden crack was now visible.*"
     
     i "Please... play... league... of.... legends..."
     i "Join... us..."
     
-    m "Is this our cue to leave?"
+    # m "Is this our cue to leave?"
     
-    "*Before both of them could react, the window shattered due to the excessive banging of the infected.*"
-    "*One of the infected flopped on the floor, muttering erratically about being restricted from the game for saying some bad, bad words...*"
+    # "*Before both of them could react, the window shattered due to the excessive banging of the infected.*"
+    # "*One of the infected flopped on the floor, muttering erratically about being restricted from the game for saying some bad, bad words...*"
     
-    i "They're all ********!!! Now... I can't... play..."
+    i "They're all #*&@#&*!!! Now... I can't... play..."
+    scene sq4_f with vpunch
     i "HELP ME PLEASE, GOD HELP ME..."
     
     w "RUN!!!"
     
-    m "Wha- I'll try!"
+    # m "Wha- I'll try!"
     
+    scene sq4_runaway with hpunch
     "The K.Y.S Protocol"
     "SECLUDE YOURSELF FROM THE INFECTED"
     "As much as possible, do not interact with the infected yourselves."
+    scene static bg with dissolve
     "By doing so, you are putting yourself at a higher risk of contracting the infection."
     "Instead, find an empty room with a lockable door and seclude yourself from the infected."
     "Whatever you do, do Not let them in under any circumstances."
+    scene black with dissolve
     "The K.Y.S protocol."
     "Remember, to Keep Yourself Safe."
-    "*Cut to a messy study*"
+    
     
     # sequence 4 end
     
@@ -317,7 +339,8 @@ label start:
     label attempt:
     
     # sequence 5 start
-    
+
+    "*Cut to a messy study*"
     "*Cut to Doctor Milo having a chat with Louie via video call*"
     
     l "Alright, we can schedule you for Tuesday 9:00PM, gotcha?"
