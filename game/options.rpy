@@ -12,18 +12,18 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("league virus")
+define config.name = _("The League Virus")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "v6.13.26"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -120,7 +120,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 50
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0

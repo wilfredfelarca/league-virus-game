@@ -3,11 +3,12 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define i = Character("Infected")
-define d = Character("Doctor Milo")
-define w = Character("Wilfred")
-define m = Character("Mon")
-define l = Character("louie")
+define i = Character(_("Infected"), color="#33ccbb")
+define d = Character(_("Doctor Milo"), color="#5b9c5a")
+define w = Character(_("Wilfred"), color="#a755b3")
+define m = Character(_("Mon"), color="#e780c8")
+define l = Character(_("Louie"), color="#f6ff00")
+# define p = Character(_("Placeholder"), color="#fffff")
 
 
 
@@ -97,10 +98,10 @@ label start:
     w "You reported that this friend of yours has been displaying potential anomaly behavior?"
     w "May you elaborate on that, please."
     
-    scene sq2_interview_a
+    scene sq2_interview_a with dissolve
     m "Sure..."
     m "At first, I assumed Cole was just burnt out..."
-    scene sq2_interview_c
+    scene sq2_interview_c with dissolve
     m "She'd snap over the smallest things or look exhausted, but all of us in the office did."
     m "So I paid it no mind until..."
     
@@ -128,16 +129,16 @@ label start:
     w "So the threat level was low..."
     w "What happened next?"
     
-    scene sq2_interview_c
+    scene sq2_interview_c with dissolve
     m "She turned around and asked \"Mon, play league of legends\". "
-    scene sq2_interview_b
+    scene sq2_interview_b with dissolve
     m "I- I didn't know what to do! that keyboard and mouse looked like it was attached to them!"
     m "When I said no, they started showing me the characters, the animations, the story and-"
 
     scene static bg with pixellate
     #"*footage corrupts*"
     
-   # "*suddenly cuts to a news broadcast*"
+    # "*suddenly cuts to a news broadcast*"
     
     # sequence 2 end
     
@@ -193,7 +194,7 @@ label start:
     "They auto lock Yasuo"
     
     
-    scene sq3_podcast_b # "*Cut back to the interview*"
+    scene sq3_podcast_b with fade # "*Cut back to the interview*"
     l "Those are quite drastic."
     scene sq3_podcast_a
     l "But with something so futile and symptoms being often mixed with anti-social behavior..."
