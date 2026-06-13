@@ -213,10 +213,12 @@ label start:
     
     # sequence 4 start
     
-    "In the event of an encounter with a league player, follow the K.Y.S protocol."
+    scene sq4_kys with pixellate
+    "In the event of an encounter with a league player, follow the K.Y.S protocol-"
 
     # "*Inserts a ccv footage of the detective and the victim watching the infected by the other side of the glass*"
-    
+    scene static bg with fade
+
     scene sq4_a with fade
     i "How... to capture... the... baron... buff..."
     
@@ -238,18 +240,18 @@ label start:
     
     # "*Cut back to the cctv footage of Wilfred and Mon chatting at the room*"
     
-    scene black with dissolve
+    scene sq4_kys with dissolve
     "The K.Y.S protocol."
-    scene static bg with pixellate
+    scene sq4_kys_k with pixellate
     "KNOW THE SYMPTOMS."
-    scene similiar a
+    scene proximity league bg
     "When in the vicinity of the infected and/or infected area, check your symptoms."
-    scene similiar b
+    scene sq4_kys_symps with dissolve 
     "Follow the relating symptoms on screen:"
     
     # "*Show symptoms that Doctor Milo was talking about*"
 
-    scene similiar c
+    scene sq4_kys_hotline 
     "If you show any signs of infection then call the L.I.G.M.A Hotline 6769-0420-911."
     
     # "*cuts back to Mon and Wilfred via glitching*"
@@ -257,7 +259,7 @@ label start:
     scene sq4_c with pixellate
     w "You what...?"
     
-    m "To be far,"
+    m "To be fair,"
     m " Sylas is pretty hot and the KDA skins serve so much."
     
     w "If you really like the visuals of the characters, you should try 2XKO-"
@@ -276,12 +278,16 @@ label start:
     scene sq4_f with vpunch
     i "AAAAAAAAAAAAHHH!"
     
-    scene black
+    scene sq4_kys with fade
     # TODO: Cole I have Shizuku merch I genuinely havent given u lol finish this one
     "The K.Y.S Protocol"
+    scene sq4_kys_y
     "YELL FOR HELP"
+    scene proximity league bg
     "When in close contact with an infected league player, do not hesitate to yell for help."
+    scene sq4_kys_help
     "Sometimes even directly yelling at them can help neutralize the threat for a short period of time,"
+    scene sq4_kys_help_b
     "So one can easily extract themself from the situation at hand."
     
     # "*glitch back to the cctv footage of detective wilfred and victim mon*"
@@ -291,6 +297,7 @@ label start:
     w "They're in too deep... I fear not even touching grass could save them..."
 
     # WE DONT HAVE EDITED IMAGES OF THIS FUCK
+    scene sq4_i with vpunch
     m "WHAT?!"
     m "Then what about our friends, our families, who've been infected?"
     m "We can't just abandon them!"
@@ -303,31 +310,36 @@ label start:
     
     # "*As the pair looked back at the window, a sudden crack was now visible.*"
     
+    scene sq4_f with fade
     i "Please... play... league... of.... legends..."
     i "Join... us..."
     
-    # m "Is this our cue to leave?"
+    scene sq4_i with vpunch
+    m "Is this our cue to leave?"
     
     # "*Before both of them could react, the window shattered due to the excessive banging of the infected.*"
     # "*One of the infected flopped on the floor, muttering erratically about being restricted from the game for saying some bad, bad words...*"
     
-    i "They're all #*&@#&*!!! Now... I can't... play..."
     scene sq4_f with vpunch
+    i "They're all #*&@#&*!!! Now... I can't... play..."
     i "HELP ME PLEASE, GOD HELP ME..."
     
+    scene sq6_g with hpunch
     w "RUN!!!"
     
-    # m "Wha- I'll try!"
-    
     scene sq4_runaway with hpunch
+    m "Wha- I'll try!"
+    
+    scene sq4_kys with fade
     "The K.Y.S Protocol"
+    scene sq4_kys_s
     "SECLUDE YOURSELF FROM THE INFECTED"
     "As much as possible, do not interact with the infected yourselves."
-    scene static bg with dissolve
+    scene engage conversation bg
     "By doing so, you are putting yourself at a higher risk of contracting the infection."
     "Instead, find an empty room with a lockable door and seclude yourself from the infected."
     "Whatever you do, do Not let them in under any circumstances."
-    scene black with dissolve
+    scene sq4_kys
     "The K.Y.S protocol."
     "Remember, to Keep Yourself Safe."
     
@@ -340,8 +352,9 @@ label start:
     
     # sequence 5 start
 
-    "*Cut to a messy study*"
-    "*Cut to Doctor Milo having a chat with Louie via video call*"
+    # "*Cut to a messy study*"
+    # "*Cut to Doctor Milo having a chat with Louie via video call*"
+    
     
     l "Alright, we can schedule you for Tuesday 9:00PM, gotcha?"
     
