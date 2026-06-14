@@ -30,6 +30,17 @@ define config.version = "v6.13.26"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+The Team:
+
+Calar, Cloie.
+
+Chaneco, Branden.
+
+Felarca, Wilfred.
+
+Matta, Monique.
+
+Wong, Chloe.
 """)
 
 
