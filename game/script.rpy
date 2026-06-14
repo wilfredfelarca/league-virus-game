@@ -7,7 +7,7 @@ define i = Character(_("Infected"), color="#33ccbb")
 define d = Character(_("Doctor Milo"), color="#5b9c5a")
 define w = Character(_("Wilfred"), color="#a755b3")
 define m = Character(_("Mon"), color="#e780c8")
-define l = Character(_("Louie"), color="#f6ff00")
+define l = Character(_("Louie"), color="#f4f95c")
 # define p = Character(_("Placeholder"), color="#fffff")
 
 
@@ -71,7 +71,7 @@ label start:
     d "When in the vicinity of a league player, remain calm."
     d "Engage in conversation not in relation to the parasite."
     scene engage conversation bg 
-    d "topics such as family, music, and art are encouraged."
+    d "Topics such as family, music, and art are encouraged."
     
     
     # sequence 1 end
@@ -130,7 +130,7 @@ label start:
     w "What happened next?"
     
     scene sq2_interview_c with dissolve
-    m "She turned around and asked \"Mon, play league of legends\". "
+    m "She turned around and asked \"Mon, play League of Legends\". "
     scene sq2_interview_b with dissolve
     m "I- I didn't know what to do! That keyboard and mouse looked like it was attached to them!"
     m "When I said no, they started showing me the characters, the animations, the story and-"
@@ -160,7 +160,7 @@ label start:
     
     d "It's good to be here."
     scene sq3_podcast_a
-    l "I don't wanna dance around the issue's Doctor, so let's try to break the ice."
+    l "I don't wanna dance around the issue Doctor, so let's try to break the ice."
     l "What are your thoughts on these \"League Defenders\" stating that playing League of Legends is a \"New Era of Esports\". "
     
     scene sq3_podcast_c
@@ -172,25 +172,25 @@ label start:
     
     scene sq3_podcast_d with pixellate #*cut to a presentation
     
-    "Stage 1) Actively seeking external Media"
-    "The infected has grown an insatiable need to consume media surrounding the \"league of Legends\" IP such as... "
-    "Arcane"
-    "2XKO"
-    "KDA, Heartsteel and Pentakill"
-    "Goons to the characters"
+    "Stage 1: Actively seeking external media."
+    "The infected grow an insatiable need to consume media surrounding the \"league of Legends\" IP such as... "
+    "Arcane."
+    "2XKO."
+    "KDA, Heartsteel and Pentakill."
+    "And they may goon to the characters."
     
     scene sq3_podcast_e with fade
-    "Stage 2) The Queue"
-    "The infected had downloaded the client and is queueing for casual games, slowly secluding themselves from the world."
-    "Do note they are highly dangerous in hordes as they will invite you to join in their \"Lobby\". " 
+    "Stage 2: The Queue."
+    "The infected has downloaded the client and is queueing for casual games, slowly secluding themselves from the world."
+    "Do note they are highly dangerous in hordes, as they will invite you to join in their \"Lobby\". " 
     
     scene sq3_podcast_f with fade
-    "Stage 3) Ranked Player"
+    "Stage 3: Ranked Player."
     "A point of no return; will often be heard muttering about \"LP\" and \"Placements\" whilst in the lobby."
     "Will STOP playing characters they love and resign to playing \"Meta picks\". "
     
     scene sq3_podcast_g with fade
-    "Final Stage) Yasuo Players"
+    "Final Stage: Yasuo Players."
     "They auto lock Yasuo."
     
     
@@ -252,7 +252,7 @@ label start:
     # "*Show symptoms that Doctor Milo was talking about*"
 
     scene sq4_kys_hotline 
-    "If you show any signs of infection then call the L.I.G.M.A Hotline 6769-0420-911."
+    "If you show any signs of infection then call the L.I.G.M.A Hotline." # 6769-0420-911."
     
     # "*cuts back to Mon and Wilfred via glitching*"
 
@@ -260,9 +260,9 @@ label start:
     w "You what...?"
     
     m "To be fair,"
-    m " Sylas is pretty hot and the KDA skins serve so much."
+    m "Sylas is pretty hot and the KDA skins serve so much."
     
-    w "If you really like the visuals of the characters, you should try 2XKO-"
+    w "If you really like the visuals of the characters, you should just try 2XKO-"
     
     scene sq4_e with vpunch
     "-!?"
@@ -273,14 +273,13 @@ label start:
     # "*Wilfred shines his phone with a picture of grass*"
     
     scene sq4_h with vpunch
-    w "GET BACK!"
+    w "{size=50}GET BACK!{/size}"
     
     scene sq4_f with vpunch
-    i "AAAAAAAAAAAAHHH!"
+    i "{size=70}{b}AAAAAAAAAAAAHHH!{/b}{size=70}"
     
     scene sq4_kys with fade
-    # TODO: Cole I have Shizuku merch I genuinely havent given u lol finish this one
-    "The K.Y.S Protocol"
+    "The K.Y.S Protocol."
     scene sq4_kys_y
     "YELL FOR HELP"
     scene proximity league bg
@@ -306,7 +305,7 @@ label start:
     m "And I sure as hell don't want to be part of that... crowd..."
     
     scene black
-    "*BANG BANG*"
+    "{size=50}{b}(BANG BANG){/b}{/size}"
     
     # "*As the pair looked back at the window, a sudden crack was now visible.*"
     
@@ -325,15 +324,15 @@ label start:
     i "HELP ME PLEASE, GOD HELP ME..."
     
     scene sq6_g with hpunch
-    w "RUN!!!"
+    w "{size=50}RUN!!!{/size}"
     
     scene sq4_runaway with hpunch
     m "Wha- I'll try!"
     
     scene sq4_kys with fade
-    "The K.Y.S Protocol"
+    "The K.Y.S Protocol."
     scene sq4_kys_s
-    "SECLUDE YOURSELF FROM THE INFECTED"
+    "SECLUDE YOURSELF FROM THE INFECTED."
     "As much as possible, do not interact with the infected yourselves."
     scene engage conversation bg
     "By doing so, you are putting yourself at a higher risk of contracting the infection."
@@ -341,6 +340,7 @@ label start:
     "Whatever you do, do Not let them in under any circumstances."
     scene sq4_kys
     "The K.Y.S protocol."
+    scene black with dissolve
     "Remember, to Keep Yourself Safe."
     
     
@@ -352,7 +352,7 @@ label start:
     
     # sequence 5 start
     scene sq5_d with fade
-    pause 0.5
+    pause 1.0
     # "*Cut to a messy study*"
     # "*Cut to Doctor Milo having a chat with Louie via video call*"
     
@@ -365,7 +365,7 @@ label start:
     l "How's it like being infected? AHAHA-!"
     
     scene sq5_b
-    d "Fuck you."
+    d "{i}Fuck you.{/i}"
     
     scene sq5_c with fade
     # "*Milo hangs up as lay back at their chair*"
@@ -375,11 +375,11 @@ label start:
     # "*flash photo of a messy desk filled with papers and scribbles*"
     scene sq5_d with fade 
     d "All of these leads are incompatible with the virus..."
-    d "There's slight aversions to it but not outright reversing of the symptoms."
+    d "There's slight aversions to it, but not outright reversing of the symptoms."
     
     #"*Shows a close up of a framed photo of Milo and a potted plant*"
     scene sq5_e
-    d "Whenever I show them pictures of nature, it does nothing but temporarily terrify them, so exposure therapy's a no go"
+    d "Whenever I show them pictures of nature, it does nothing but temporarily frighten them, so exposure therapy's a no go."
     d "Though... taking a closer look may help us to understand this..."
     
     #"*cut to Doctor Milo opening their computer to the website of the league of legends*"
@@ -387,12 +387,12 @@ label start:
     scene sq5_h with dissolve
     d "Maybe... just maybe... If I learnt more about the source of where this virus is coming from,"
     scene black with fade
-    d "then maybe..."
+    d "Then maybe..."
     scene sq5_i with fade
     d "I can get to the bottom of it."
     
     scene black with fade
-    "{i}Hours passed by{/i}"
+    "{i}Hours pass by...{/i}"
     
     scene sq5_milo league_c with dissolve
     d "Huh... Warwick... Rengar..."
@@ -403,10 +403,10 @@ label start:
     
     scene sq5_f with vpunch
     i "See...! You get it...!"
-    i "You want to try how Warwick plays in a game? If you lend me your laptop-"
+    i "You want to try how Warwick plays in a game? If you lend me your keyboard-"
     
     scene sq5_milo league_b with vpunch
-    d "NOT gonna happen."
+    d "{i}NOT{/i} gonna happen."
     
     scene black with fade
     "{i}A few more hours later...{/i}"
@@ -415,7 +415,7 @@ label start:
     scene sq5_milo league_a with dissolve
     d "Yeah, I got nothing."
     scene sq5_milo league_c
-    d "Warwick's hot though"
+    d "Warwick's hot though..."
     scene sq5_milo league_c with vpunch
     d "-!?"
     d "What... What time is it?"
@@ -424,17 +424,17 @@ label start:
     #"*Shocked to find out it's been 6 hours ever since they started researching information about League of Legends*"
     
     scene sq5_milo league_e with dissolve
-    d "IT'S BEEN 6 HOURS? OH, THIS IS BAD..."
-    d "THIS IS REALLY BAD... I've consumed too much... What if..."
+    d "It's been 6 hours!? Oh, this is bad..."
+    d "This is relly bad, I've consumed too much... What if..."
     
     # "*Pushes away from their table and stands, letting some items fall*"
     scene sq5_g with fade
-    d "What if I'm next?..."
+    d "What if I'm next...?"
     d "No... I can't... I..."
     
     scene black with fade
     
-    d "I can't be next..."
+    d "I can't be next."
     
     scene static bg with fade
     # "*cut back to Mon and Wilfred*"
@@ -454,7 +454,7 @@ label start:
     scene sq6_c with vpunch
     pause 1.0
     
-    "{i}BANG BANG BANG{/i}"
+    "{size=50}{i}(BANG BANG BANG){/i}{/size}"
     
     scene sq6_j with vpunch
     m "W-What do we do, detective...!? They know we're in here, we're trapped...!"
@@ -468,14 +468,14 @@ label start:
     w "There's no point in fighting it anymore, Mon."
     w "We can't escape this..."
     scene sq6_l
-    w "Like what the philosopher Euridel Bo has said,"
+    w "Like what philosopher Euridel Bo has said,"
     scene sq6_e with dissolve
-    w " \"Everyone has tried league at least once in their lives.\" "
+    w " {i}\"Everyone has tried League at least once in their lives.\"{/i} "
     scene sq6_l with dissolve
     w "And it's not always guaranteed they end up infected like the others."
     
     scene sq6_f
-    m "Wait... You're so right, I've played league once when I was 13 and it never stuck..."
+    m "Wait... You're so right, I've played League once when I was 13 and it never stuck..."
     
     scene sq6_g with vpunch
     w "You... what?"
@@ -486,7 +486,7 @@ label start:
     scene black with fade
     m "Maybe..."
     scene black with vpunch
-    "{i}door bangs{/i}"
+    "{i}{b}{size=70}(BANG){/i}{/b}{/size}"
     
     scene sq6_i with fade
     m "Just maybe... there is a cure."
